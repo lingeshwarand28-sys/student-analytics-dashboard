@@ -180,8 +180,10 @@ st.plotly_chart(
 # =========================
 # DEPARTMENT-WISE AVERAGE CGPA
 # =========================
+col1, col2 = st.columns(2)
 
-st.subheader("📊 Department-wise Average CGPA")
+with col1:
+    st.subheader("📊 Department-wise Average CGPA")
 
 department_cgpa = (
     df.groupby("Department")["CGPA"]
@@ -217,8 +219,8 @@ st.plotly_chart(
 # =========================
 # STUDENTS BY DEPARTMENT
 # =========================
-
-st.subheader("🏫 Students by Department")
+with col2:
+    st.subheader("🏫 Students by Department")
 
 department_count = (
     df["Department"]
