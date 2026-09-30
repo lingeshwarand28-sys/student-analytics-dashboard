@@ -214,6 +214,46 @@ st.plotly_chart(
     use_container_width=True
 )
 
+# =========================
+# STUDENTS BY DEPARTMENT
+# =========================
+
+st.subheader("🏫 Students by Department")
+
+department_count = (
+    df["Department"]
+    .value_counts()
+    .reset_index()
+)
+
+department_count.columns = [
+    "Department",
+    "Student_Count"
+]
+
+fig_dept = px.bar(
+    department_count,
+    x="Department",
+    y="Student_Count",
+    text="Student_Count",
+    title="Students by Department"
+)
+
+fig_dept.update_traces(
+    textposition="outside"
+)
+
+fig_dept.update_layout(
+    height=400,
+    xaxis_title="Department",
+    yaxis_title="Number of Students"
+)
+
+st.plotly_chart(
+    fig_dept,
+    use_container_width=True
+)
+
 # Show dataset
 st.subheader("Student Dataset")
 
