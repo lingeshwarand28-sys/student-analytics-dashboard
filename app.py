@@ -92,6 +92,53 @@ st.write("Student data analysis dashboard")
 # Load dataset
 df = pd.read_csv("data/students.csv")
 
+# =========================
+# KPI CARDS
+# =========================
+
+total_students = len(df)
+
+average_cgpa = round(df["CGPA"].mean(), 2)
+
+average_attendance = round(
+    df["Attendance"].mean(), 1
+)
+
+placed_students = (
+    df["Placement_Status"] == "Placed"
+).sum()
+
+placement_rate = round(
+    (placed_students / total_students) * 100,
+    1
+)
+
+col1, col2, col3, col4 = st.columns(4)
+
+with col1:
+    st.metric(
+        "👨‍🎓 Total Students",
+        total_students
+    )
+
+with col2:
+    st.metric(
+        "🎓 Average CGPA",
+        average_cgpa
+    )
+
+with col3:
+    st.metric(
+        "📅 Average Attendance",
+        f"{average_attendance}%"
+    )
+
+with col4:
+    st.metric(
+        "💼 Placement Rate",
+        f"{placement_rate}%"
+    )
+
 # Show dataset
 st.subheader("Student Dataset")
 
