@@ -259,26 +259,29 @@ st.plotly_chart(
 # =========================
 # CGPA DISTRIBUTION
 # =========================
+col1, col2 = st.columns(2)
 
-st.subheader("📈 CGPA Distribution")
+with col1:
+    st.subheader("📈 CGPA Distribution")
 
-fig_cgpa_dist = px.histogram(
-    df,
-    x="CGPA",
-    nbins=10,
-    title="CGPA Distribution"
-)
+    fig_cgpa_dist = px.histogram(
+        df,
+        x="CGPA",
+        nbins=12,
+        title="CGPA Distribution",
+        marginal="box"
+    )
 
-fig_cgpa_dist.update_layout(
-    height=400,
-    xaxis_title="CGPA",
-    yaxis_title="Number of Students"
-)
+    fig_cgpa_dist.update_layout(
+        height=450,
+        xaxis_title="CGPA",
+        yaxis_title="Number of Students"
+    )
 
-st.plotly_chart(
-    fig_cgpa_dist,
-    use_container_width=True
-)
+    st.plotly_chart(
+        fig_cgpa_dist,
+        use_container_width=True
+    )
 
 # =========================
 # ATTENDANCE VS CGPA
@@ -295,7 +298,11 @@ fig_attendance = px.scatter(
         "Department",
         "Placement_Status"
     ],
-    title="Attendance vs CGPA",
+    title="Attendance vs CGPA"
+)
+
+fig_attendance.update_traces(
+    marker=dict(size=9)
 )
 
 fig_attendance.update_layout(
@@ -308,9 +315,6 @@ st.plotly_chart(
     fig_attendance,
     use_container_width=True
 )
-
-# Show dataset
-st.subheader("Student Dataset")
 
 # Sidebar Project Info
 
@@ -478,9 +482,38 @@ col1, col2 = st.columns(2)
 with col1:
     st.subheader("💼 Placement Status")
 
-    placement_count = df["Placement_Status"].value_counts()
+    placement_count = (
+        df["Placement_Status"]
+        .value_counts()
+        .reset_index()
+    )
 
-    st.bar_chart(placement_count)
+    placement_count.columns = [
+        "Placement_Status",
+        "Student_Count"
+    ]
+
+    fig_placement = px.pie(
+        placement_count,
+        names="Placement_Status",
+        values="Student_Count",
+        hole=0.5,
+        title="Placement Status Distribution"
+    )
+
+    fig_placement.update_traces(
+        textinfo="percent+label"
+    )
+
+    fig_placement.update_layout(
+        height=400
+    )
+
+    st.plotly_chart(
+    fig_placement,
+    use_container_width=True,
+    key="placement_status_chart"
+)
 
 with col2:
     st.subheader("🎓 Internship vs Placement")
@@ -490,7 +523,34 @@ with col2:
         df["Placement_Status"]
     )
 
+    internship_placement = internship_placement.reset_index()
+
+    fig_internship = px.bar(
+        internship_placement,
+        x="Internships",
+        y="Placed",
+        title="Internships vs Placed Students",
+        text="Placed"
+    )
+
+    fig_internship.update_traces(
+        textposition="outside"
+    )
+
+    fig_internship.update_layout(
+        height=400,
+        xaxis_title="Number of Internships",
+        yaxis_title="Placed Students"
+    )
+
+    st.plotly_chart(
+        fig_internship,
+        use_container_width=True
+    )
+
     st.bar_chart(internship_placement)
+
+
 
 # Attendance vs CGPA
 
