@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import plotly.express as px
 
 # Page settings
 st.set_page_config(
@@ -7,8 +8,84 @@ st.set_page_config(
     layout="wide"
 )
 
+# Professional Dashboard Styling
+
+st.markdown("""
+<style>
+
+.stApp {
+    background-color: #071A33;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #06152A;
+}
+
+[data-testid="stSidebar"] * {
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h2, h3 {
+    color: white;
+}
+
+.stMetric {
+    background-color: #0D2A4D;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #1E4D7A;
+}
+
+.stMetric label {
+    color: white !important;
+}
+
+.stMetric [data-testid="stMetricValue"] {
+    color: white;
+}
+
+div[data-testid="stDataFrame"] {
+    border-radius: 10px;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
 # Title
-st.title("🎓 Student Academic Performance & Placement Analytics")
+# Dashboard Header
+
+st.markdown("""
+<div style="
+    background: linear-gradient(90deg, #082B55, #0B3B70);
+    padding: 20px 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+">
+
+<h1 style="
+    margin: 0;
+    color: white;
+    font-size: 34px;
+">
+🎓 Student Academic Performance & Placement Analytics
+</h1>
+
+<p style="
+    margin: 6px 0 0 0;
+    color: #B9D9FF;
+    font-size: 17px;
+">
+Data-Driven Insights for Better Decisions
+</p>
+
+</div>
+""", unsafe_allow_html=True)
 
 st.write("Student data analysis dashboard")
 
@@ -87,31 +164,73 @@ placement_percentage = round(
 
 # Create KPI columns
 
+# KPI Cards
+
 col1, col2, col3, col4 = st.columns(4)
 
 with col1:
-    st.metric(
-        "👨‍🎓 Total Students",
-        total_students
-    )
+    st.markdown(f"""
+    <div style="
+        background: linear-gradient(135deg, #0878E8, #1554C0);
+        padding: 20px;
+        border-radius: 12px;
+        color: white;
+        height: 120px;
+    ">
+        <div style="font-size: 17px;">👨‍🎓 Total Students</div>
+        <div style="font-size: 32px; font-weight: bold;">
+            {total_students}
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
 with col2:
-    st.metric(
-        "📊 Average CGPA",
-        average_cgpa
-    )
+    st.markdown(f"""
+    <div style="
+        background: linear-gradient(135deg, #10B981, #059669);
+        padding: 20px;
+        border-radius: 12px;
+        color: white;
+        height: 120px;
+    ">
+        <div style="font-size: 17px;">🎓 Average CGPA</div>
+        <div style="font-size: 32px; font-weight: bold;">
+            {average_cgpa}
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
 with col3:
-    st.metric(
-        "💼 Placed Students",
-        placed_students
-    )
+    st.markdown(f"""
+    <div style="
+        background: linear-gradient(135deg, #7C3AED, #5B21B6);
+        padding: 20px;
+        border-radius: 12px;
+        color: white;
+        height: 120px;
+    ">
+        <div style="font-size: 17px;">💼 Placed Students</div>
+        <div style="font-size: 32px; font-weight: bold;">
+            {placed_students}
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
 with col4:
-    st.metric(
-        "🎯 Placement %",
-        f"{placement_percentage}%"
-    )
+    st.markdown(f"""
+    <div style="
+        background: linear-gradient(135deg, #F59E0B, #EA580C);
+        padding: 20px;
+        border-radius: 12px;
+        color: white;
+        height: 120px;
+    ">
+        <div style="font-size: 17px;">🎯 Placement Rate</div>
+        <div style="font-size: 32px; font-weight: bold;">
+            {placement_percentage}%
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
 # Department Analysis
 
