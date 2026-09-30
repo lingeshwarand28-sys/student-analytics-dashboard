@@ -294,7 +294,6 @@ fig_attendance = px.scatter(
         "Placement_Status"
     ],
     title="Attendance vs CGPA",
-    trendline="ols"
 )
 
 fig_attendance.update_layout(
