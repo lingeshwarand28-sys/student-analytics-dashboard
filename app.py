@@ -278,6 +278,36 @@ st.plotly_chart(
     use_container_width=True
 )
 
+# =========================
+# ATTENDANCE VS CGPA
+# =========================
+
+st.subheader("📚 Attendance vs CGPA")
+
+fig_attendance = px.scatter(
+    df,
+    x="Attendance",
+    y="CGPA",
+    hover_data=[
+        "Student_ID",
+        "Department",
+        "Placement_Status"
+    ],
+    title="Attendance vs CGPA",
+    trendline="ols"
+)
+
+fig_attendance.update_layout(
+    height=450,
+    xaxis_title="Attendance (%)",
+    yaxis_title="CGPA"
+)
+
+st.plotly_chart(
+    fig_attendance,
+    use_container_width=True
+)
+
 # Show dataset
 st.subheader("Student Dataset")
 
