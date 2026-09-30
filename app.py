@@ -254,6 +254,30 @@ st.plotly_chart(
     use_container_width=True
 )
 
+# =========================
+# CGPA DISTRIBUTION
+# =========================
+
+st.subheader("📈 CGPA Distribution")
+
+fig_cgpa_dist = px.histogram(
+    df,
+    x="CGPA",
+    nbins=10,
+    title="CGPA Distribution"
+)
+
+fig_cgpa_dist.update_layout(
+    height=400,
+    xaxis_title="CGPA",
+    yaxis_title="Number of Students"
+)
+
+st.plotly_chart(
+    fig_cgpa_dist,
+    use_container_width=True
+)
+
 # Show dataset
 st.subheader("Student Dataset")
 
