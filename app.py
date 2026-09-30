@@ -177,6 +177,43 @@ st.plotly_chart(
     use_container_width=True
 )
 
+# =========================
+# DEPARTMENT-WISE AVERAGE CGPA
+# =========================
+
+st.subheader("📊 Department-wise Average CGPA")
+
+department_cgpa = (
+    df.groupby("Department")["CGPA"]
+    .mean()
+    .round(2)
+    .reset_index()
+)
+
+fig_cgpa = px.bar(
+    department_cgpa,
+    x="CGPA",
+    y="Department",
+    orientation="h",
+    text="CGPA",
+    title="Average CGPA by Department"
+)
+
+fig_cgpa.update_traces(
+    textposition="outside"
+)
+
+fig_cgpa.update_layout(
+    height=400,
+    xaxis_title="Average CGPA",
+    yaxis_title="Department"
+)
+
+st.plotly_chart(
+    fig_cgpa,
+    use_container_width=True
+)
+
 # Show dataset
 st.subheader("Student Dataset")
 
