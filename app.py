@@ -139,6 +139,44 @@ with col4:
         f"{placement_rate}%"
     )
 
+# =========================
+# PLACEMENT STATUS CHART
+# =========================
+
+st.subheader("💼 Placement Status")
+
+placement_count = (
+    df["Placement_Status"]
+    .value_counts()
+    .reset_index()
+)
+
+placement_count.columns = [
+    "Placement_Status",
+    "Student_Count"
+]
+
+fig = px.pie(
+    placement_count,
+    names="Placement_Status",
+    values="Student_Count",
+    hole=0.5,
+    title="Placement Status Distribution"
+)
+
+fig.update_traces(
+    textinfo="percent+label"
+)
+
+fig.update_layout(
+    height=400
+)
+
+st.plotly_chart(
+    fig,
+    use_container_width=True
+)
+
 # Show dataset
 st.subheader("Student Dataset")
 
