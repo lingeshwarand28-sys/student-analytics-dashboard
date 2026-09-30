@@ -1,0 +1,501 @@
+Student_ID,Age,Gender,Department,Attendance,CGPA,Internships,Projects,Aptitude_Score,Technical_Score,Placement_Status
+S0001,18,Male,IT,59.0,7.58,2,3,65,56,Not Placed
+S0002,22,Female,AI&DS,68.6,9.45,2,3,42,83,Not Placed
+S0003,19,Male,ECE,90.0,9.05,2,5,97,79,Placed
+S0004,20,Female,ECE,57.7,8.46,0,0,87,72,Placed
+S0005,20,Female,AI&DS,69.5,5.58,3,3,66,46,Not Placed
+S0006,18,Female,ECE,85.7,6.56,3,2,51,56,Not Placed
+S0007,20,Female,IT,65.4,6.77,0,2,88,72,Not Placed
+S0008,20,Male,EEE,55.6,7.19,1,4,61,100,Placed
+S0009,20,Female,IT,66.1,8.32,1,0,68,71,Placed
+S0010,22,Male,IT,85.2,6.43,1,3,49,99,Not Placed
+S0011,18,Female,AI&DS,81.3,5.66,2,1,69,75,Not Placed
+S0012,22,Male,IT,55.1,8.03,3,1,90,88,Placed
+S0013,21,Female,CSE,57.3,7.55,0,1,71,56,Not Placed
+S0014,19,Male,IT,60.1,8.84,0,5,46,46,Not Placed
+S0015,22,Male,CSE,91.9,7.75,1,2,86,78,Placed
+S0016,18,Male,IT,63.7,6.66,3,3,44,45,Not Placed
+S0017,20,Female,AI&DS,87.0,6.78,3,2,88,52,Not Placed
+S0018,20,Male,AI&DS,68.6,8.25,3,2,80,64,Not Placed
+S0019,21,Male,IT,61.6,7.77,0,0,84,49,Not Placed
+S0020,18,Female,CSE,76.3,6.9,2,2,85,70,Not Placed
+S0021,22,Female,IT,97.2,8.85,0,0,74,91,Placed
+S0022,20,Female,CSE,60.3,6.17,1,3,78,43,Not Placed
+S0023,19,Male,AI&DS,73.4,9.48,1,5,60,76,Placed
+S0024,20,Male,ECE,61.5,7.84,1,5,67,100,Placed
+S0025,22,Female,ECE,90.5,6.31,1,4,65,40,Not Placed
+S0026,20,Female,AI&DS,90.3,5.61,3,1,42,92,Not Placed
+S0027,20,Female,AI&DS,77.8,9.46,3,3,77,90,Placed
+S0028,18,Female,IT,74.3,6.22,2,4,51,100,Not Placed
+S0029,22,Female,AI&DS,58.2,8.32,2,2,82,71,Placed
+S0030,22,Male,EEE,69.2,9.72,1,2,42,94,Not Placed
+S0031,21,Male,AI&DS,71.1,8.44,0,4,71,45,Not Placed
+S0032,18,Male,CSE,65.7,8.78,1,2,85,98,Placed
+S0033,18,Male,EEE,72.6,8.59,0,2,55,59,Not Placed
+S0034,22,Male,ECE,63.4,8.14,2,5,66,79,Placed
+S0035,20,Male,AI&DS,78.4,8.63,3,0,52,77,Not Placed
+S0036,22,Female,IT,81.0,7.94,2,5,56,71,Not Placed
+S0037,18,Female,IT,74.7,6.0,3,4,81,61,Not Placed
+S0038,22,Female,CSE,61.9,7.9,1,3,50,94,Not Placed
+S0039,19,Female,CSE,74.9,9.03,0,1,96,80,Placed
+S0040,18,Male,IT,89.6,6.82,1,0,100,92,Not Placed
+S0041,18,Female,AI&DS,75.1,5.89,0,5,88,70,Not Placed
+S0042,22,Female,ECE,66.5,8.87,0,2,88,57,Not Placed
+S0043,20,Male,ECE,67.1,5.51,2,2,92,43,Not Placed
+S0044,19,Female,IT,93.1,9.02,3,5,56,40,Not Placed
+S0045,18,Male,ECE,83.2,9.23,0,0,40,82,Not Placed
+S0046,22,Female,IT,64.0,6.67,2,0,70,71,Not Placed
+S0047,22,Male,ECE,79.1,9.63,2,0,94,62,Not Placed
+S0048,21,Female,EEE,68.3,5.91,0,1,45,66,Not Placed
+S0049,22,Male,IT,89.2,8.45,0,4,65,68,Placed
+S0050,21,Female,ECE,61.5,9.6,1,0,44,79,Not Placed
+S0051,22,Female,EEE,63.4,7.37,3,5,64,95,Placed
+S0052,19,Female,AI&DS,64.0,6.0,2,3,74,78,Not Placed
+S0053,22,Female,EEE,67.6,8.69,2,3,71,87,Placed
+S0054,18,Female,AI&DS,61.3,5.55,1,4,84,75,Not Placed
+S0055,19,Female,EEE,61.0,8.94,3,3,84,78,Placed
+S0056,20,Male,CSE,83.4,7.63,1,1,49,85,Not Placed
+S0057,21,Male,IT,86.2,9.21,0,4,91,69,Placed
+S0058,19,Female,AI&DS,94.3,6.22,2,2,50,93,Not Placed
+S0059,18,Female,ECE,76.4,6.23,2,4,43,58,Not Placed
+S0060,20,Male,ECE,65.7,8.8,1,3,71,92,Placed
+S0061,20,Male,ECE,70.2,8.16,1,3,98,60,Not Placed
+S0062,21,Male,EEE,75.2,8.9,3,4,86,62,Not Placed
+S0063,20,Female,CSE,84.1,7.07,2,4,80,91,Placed
+S0064,21,Male,CSE,83.5,7.41,3,5,43,48,Not Placed
+S0065,19,Male,EEE,91.2,6.36,0,2,99,51,Not Placed
+S0066,22,Female,IT,80.3,8.17,0,3,63,76,Placed
+S0067,19,Female,EEE,74.6,6.68,2,4,90,59,Not Placed
+S0068,19,Male,EEE,75.2,8.01,3,2,46,59,Not Placed
+S0069,22,Male,AI&DS,86.6,8.67,3,0,79,61,Not Placed
+S0070,20,Female,CSE,61.3,7.71,3,3,60,85,Placed
+S0071,21,Male,CSE,95.5,7.16,0,0,88,61,Not Placed
+S0072,22,Male,EEE,82.5,8.79,0,1,64,54,Not Placed
+S0073,21,Male,EEE,78.0,7.44,1,3,44,51,Not Placed
+S0074,21,Male,IT,85.2,5.72,0,2,64,40,Not Placed
+S0075,22,Male,IT,80.7,7.89,2,1,47,47,Not Placed
+S0076,18,Male,AI&DS,95.2,5.92,1,0,87,97,Not Placed
+S0077,19,Male,IT,97.7,8.13,0,5,82,51,Not Placed
+S0078,21,Male,EEE,96.9,7.94,3,0,56,96,Not Placed
+S0079,22,Female,ECE,68.2,6.93,1,1,93,83,Not Placed
+S0080,18,Male,AI&DS,79.9,5.86,3,3,95,55,Not Placed
+S0081,18,Female,CSE,75.5,9.69,1,0,75,63,Not Placed
+S0082,22,Female,AI&DS,84.1,9.3,3,5,67,41,Not Placed
+S0083,18,Female,AI&DS,62.9,6.33,3,2,86,77,Not Placed
+S0084,19,Female,AI&DS,75.9,9.17,1,2,49,65,Not Placed
+S0085,21,Male,CSE,94.6,7.53,2,4,68,53,Not Placed
+S0086,22,Female,ECE,81.6,8.85,1,0,73,70,Placed
+S0087,19,Male,CSE,73.9,7.51,1,0,86,70,Placed
+S0088,19,Male,AI&DS,78.1,7.14,1,1,100,87,Placed
+S0089,18,Male,AI&DS,68.9,8.71,2,3,91,41,Not Placed
+S0090,19,Male,EEE,85.5,5.9,0,2,80,69,Not Placed
+S0091,20,Female,ECE,68.2,5.98,2,4,80,85,Not Placed
+S0092,22,Male,EEE,86.9,6.12,2,2,71,51,Not Placed
+S0093,21,Female,AI&DS,84.4,6.44,2,0,93,93,Not Placed
+S0094,18,Male,IT,93.6,8.74,3,2,53,45,Not Placed
+S0095,22,Male,IT,82.1,8.65,1,5,77,73,Placed
+S0096,21,Male,IT,71.6,9.41,2,1,92,56,Not Placed
+S0097,19,Male,EEE,83.0,7.32,2,3,90,77,Placed
+S0098,18,Female,EEE,69.4,7.38,0,5,55,44,Not Placed
+S0099,22,Female,EEE,95.1,7.95,3,4,71,53,Not Placed
+S0100,22,Male,ECE,97.0,9.56,1,4,62,96,Placed
+S0101,19,Female,CSE,91.6,6.82,2,1,50,70,Not Placed
+S0102,18,Female,ECE,91.2,8.0,3,5,88,78,Placed
+S0103,18,Male,IT,77.6,5.98,0,3,61,88,Not Placed
+S0104,22,Male,EEE,82.3,7.97,2,4,91,42,Not Placed
+S0105,20,Female,IT,81.3,6.16,1,2,82,61,Not Placed
+S0106,18,Male,IT,72.1,8.56,1,3,87,79,Placed
+S0107,22,Female,IT,57.3,6.13,3,0,79,61,Not Placed
+S0108,21,Male,ECE,61.0,6.5,3,1,98,71,Not Placed
+S0109,19,Female,AI&DS,62.4,8.45,1,5,56,46,Not Placed
+S0110,20,Female,AI&DS,81.8,7.36,2,0,96,45,Not Placed
+S0111,20,Female,EEE,70.0,7.74,1,1,88,40,Not Placed
+S0112,21,Female,ECE,63.9,6.39,2,2,79,89,Not Placed
+S0113,20,Male,IT,94.0,7.37,2,5,60,95,Placed
+S0114,21,Female,CSE,82.3,7.06,3,4,90,58,Not Placed
+S0115,22,Female,IT,55.5,6.67,0,5,57,84,Not Placed
+S0116,20,Female,IT,96.3,6.47,3,4,94,74,Not Placed
+S0117,22,Female,ECE,97.9,8.33,3,2,68,68,Placed
+S0118,18,Female,ECE,59.8,9.04,1,1,41,58,Not Placed
+S0119,22,Male,EEE,86.0,8.27,3,4,88,80,Placed
+S0120,20,Male,IT,77.3,9.78,2,1,98,75,Placed
+S0121,20,Male,CSE,91.5,8.67,3,4,83,67,Placed
+S0122,22,Male,EEE,58.6,5.76,2,0,54,49,Not Placed
+S0123,20,Male,ECE,88.7,6.92,2,5,50,43,Not Placed
+S0124,20,Male,CSE,62.0,5.51,1,4,50,90,Not Placed
+S0125,21,Female,AI&DS,68.8,8.94,1,1,79,70,Placed
+S0126,19,Male,AI&DS,72.1,6.4,1,0,53,63,Not Placed
+S0127,20,Female,IT,58.6,9.45,3,2,50,61,Not Placed
+S0128,21,Female,CSE,73.3,6.06,3,3,66,76,Not Placed
+S0129,21,Male,IT,65.0,5.76,3,4,98,77,Not Placed
+S0130,19,Female,CSE,88.2,5.6,2,3,61,89,Not Placed
+S0131,20,Female,EEE,87.1,6.12,2,5,73,53,Not Placed
+S0132,18,Male,IT,89.6,8.34,0,2,43,68,Not Placed
+S0133,21,Male,AI&DS,74.2,5.79,1,3,67,43,Not Placed
+S0134,18,Female,CSE,67.3,8.96,2,5,86,77,Placed
+S0135,19,Male,IT,61.3,6.75,3,5,88,58,Not Placed
+S0136,21,Female,AI&DS,62.4,7.58,2,2,74,50,Not Placed
+S0137,21,Female,EEE,88.3,7.95,1,4,53,79,Not Placed
+S0138,21,Female,ECE,76.5,9.23,2,3,51,100,Not Placed
+S0139,19,Male,EEE,73.6,8.35,1,1,60,100,Placed
+S0140,20,Male,AI&DS,86.7,6.3,1,3,88,73,Not Placed
+S0141,19,Female,ECE,90.0,7.47,3,4,54,49,Not Placed
+S0142,21,Male,EEE,62.2,7.15,2,2,96,44,Not Placed
+S0143,19,Female,CSE,89.3,9.68,1,2,65,59,Not Placed
+S0144,20,Female,EEE,62.2,8.02,3,2,45,98,Not Placed
+S0145,21,Female,EEE,82.5,5.54,2,2,80,62,Not Placed
+S0146,21,Male,IT,88.7,6.88,0,1,56,74,Not Placed
+S0147,18,Female,ECE,86.5,8.15,0,2,85,60,Not Placed
+S0148,19,Female,EEE,79.1,8.97,0,3,57,43,Not Placed
+S0149,20,Male,ECE,73.2,8.29,1,4,62,77,Placed
+S0150,22,Male,ECE,84.8,6.98,1,2,99,59,Not Placed
+S0151,20,Male,CSE,88.9,5.97,1,0,44,46,Not Placed
+S0152,18,Female,ECE,68.0,9.41,0,2,65,43,Not Placed
+S0153,18,Male,IT,82.9,6.35,1,5,82,62,Not Placed
+S0154,20,Male,ECE,64.6,8.3,3,4,98,63,Not Placed
+S0155,18,Male,AI&DS,89.1,7.81,2,2,71,77,Placed
+S0156,19,Female,IT,94.1,8.07,3,4,70,87,Placed
+S0157,18,Male,CSE,82.6,7.87,0,0,59,87,Not Placed
+S0158,18,Female,ECE,73.5,7.43,3,5,75,59,Not Placed
+S0159,19,Female,CSE,57.6,8.1,0,4,78,66,Placed
+S0160,18,Male,AI&DS,74.0,7.69,0,4,96,80,Placed
+S0161,18,Male,AI&DS,65.8,8.0,0,2,84,84,Placed
+S0162,18,Female,AI&DS,77.9,7.14,3,0,55,87,Not Placed
+S0163,18,Male,ECE,59.0,7.28,2,4,93,64,Not Placed
+S0164,20,Male,CSE,84.8,6.76,1,3,50,70,Not Placed
+S0165,22,Female,AI&DS,88.1,7.16,2,4,45,80,Not Placed
+S0166,22,Male,IT,73.9,8.59,3,4,53,74,Not Placed
+S0167,18,Female,CSE,83.0,6.92,3,4,70,93,Not Placed
+S0168,19,Male,CSE,73.7,7.74,3,0,65,67,Placed
+S0169,18,Male,AI&DS,86.6,7.59,2,4,95,86,Placed
+S0170,20,Female,EEE,75.5,6.25,0,1,45,62,Not Placed
+S0171,22,Female,EEE,73.7,7.3,1,5,100,96,Placed
+S0172,19,Male,AI&DS,87.1,8.22,2,0,60,79,Placed
+S0173,19,Female,AI&DS,96.1,9.43,3,0,69,67,Placed
+S0174,19,Female,AI&DS,66.8,7.78,2,5,99,100,Placed
+S0175,22,Female,IT,79.2,9.35,1,2,91,62,Not Placed
+S0176,20,Female,AI&DS,81.7,9.27,3,3,96,63,Not Placed
+S0177,18,Male,CSE,73.1,8.58,1,5,50,66,Not Placed
+S0178,19,Male,ECE,71.2,6.42,3,0,42,87,Not Placed
+S0179,19,Female,ECE,57.4,6.3,2,0,89,50,Not Placed
+S0180,22,Male,EEE,83.1,9.5,0,3,95,54,Not Placed
+S0181,21,Male,CSE,59.1,8.84,2,2,62,88,Placed
+S0182,19,Male,AI&DS,90.7,5.75,1,4,68,79,Not Placed
+S0183,18,Female,CSE,80.7,6.96,3,1,86,43,Not Placed
+S0184,20,Male,EEE,66.7,7.73,2,0,47,57,Not Placed
+S0185,19,Female,IT,94.0,7.02,3,5,57,75,Not Placed
+S0186,22,Female,EEE,86.2,6.02,0,4,97,65,Not Placed
+S0187,20,Female,AI&DS,55.9,9.16,3,4,76,77,Placed
+S0188,21,Female,CSE,96.7,6.79,2,4,96,77,Not Placed
+S0189,18,Male,AI&DS,56.5,9.78,1,4,60,49,Not Placed
+S0190,21,Male,AI&DS,59.8,7.22,0,5,47,71,Not Placed
+S0191,19,Female,ECE,78.3,6.54,1,3,57,56,Not Placed
+S0192,20,Female,CSE,94.9,6.16,2,1,46,82,Not Placed
+S0193,18,Female,AI&DS,82.3,6.22,2,4,95,97,Not Placed
+S0194,19,Female,ECE,93.5,6.78,0,1,47,79,Not Placed
+S0195,21,Male,ECE,60.7,6.22,1,2,90,76,Not Placed
+S0196,22,Male,AI&DS,76.7,9.38,0,5,94,81,Placed
+S0197,21,Male,AI&DS,55.3,6.28,2,3,83,85,Not Placed
+S0198,21,Female,AI&DS,57.0,8.62,3,1,93,62,Not Placed
+S0199,19,Male,AI&DS,58.6,7.89,0,2,42,40,Not Placed
+S0200,20,Male,CSE,93.6,6.96,3,2,81,88,Not Placed
+S0201,20,Female,EEE,69.1,8.1,1,4,81,57,Not Placed
+S0202,20,Female,AI&DS,66.3,6.3,1,1,42,59,Not Placed
+S0203,18,Female,ECE,97.8,9.69,2,4,92,55,Not Placed
+S0204,20,Male,CSE,60.9,5.67,3,2,81,44,Not Placed
+S0205,21,Male,IT,94.6,9.36,2,4,71,96,Placed
+S0206,20,Male,ECE,86.0,9.51,3,2,68,95,Placed
+S0207,21,Male,AI&DS,59.7,8.59,0,0,43,70,Not Placed
+S0208,19,Female,AI&DS,65.4,6.82,2,1,58,40,Not Placed
+S0209,21,Male,ECE,71.3,6.27,1,5,74,48,Not Placed
+S0210,19,Male,EEE,58.1,8.81,2,1,97,83,Placed
+S0211,19,Female,IT,90.2,9.2,3,5,67,98,Placed
+S0212,18,Male,ECE,69.4,6.42,0,2,77,62,Not Placed
+S0213,19,Female,AI&DS,67.5,9.14,3,2,72,94,Placed
+S0214,20,Female,IT,61.0,7.82,2,4,66,40,Not Placed
+S0215,18,Female,AI&DS,58.1,7.21,3,1,97,58,Not Placed
+S0216,18,Female,AI&DS,80.1,5.86,1,2,60,55,Not Placed
+S0217,21,Female,EEE,64.8,6.47,1,4,77,70,Not Placed
+S0218,21,Male,CSE,66.7,6.63,3,1,81,77,Not Placed
+S0219,20,Male,IT,70.7,7.7,1,4,60,88,Placed
+S0220,18,Female,ECE,65.7,8.92,0,2,45,83,Not Placed
+S0221,20,Male,AI&DS,95.9,7.15,3,4,42,94,Not Placed
+S0222,22,Male,ECE,79.8,7.26,3,2,95,73,Placed
+S0223,21,Female,EEE,78.7,6.03,2,5,72,89,Not Placed
+S0224,20,Male,AI&DS,66.3,8.97,1,4,88,94,Placed
+S0225,19,Female,EEE,74.5,8.91,0,4,93,57,Not Placed
+S0226,18,Female,ECE,62.2,7.92,0,2,75,42,Not Placed
+S0227,20,Female,IT,59.8,7.57,1,5,84,55,Not Placed
+S0228,21,Male,CSE,98.0,9.54,3,0,44,80,Not Placed
+S0229,21,Female,IT,83.5,9.71,2,1,92,83,Placed
+S0230,20,Female,CSE,74.1,9.73,3,2,64,84,Placed
+S0231,22,Male,EEE,63.7,7.71,0,0,60,42,Not Placed
+S0232,22,Male,IT,96.3,8.18,0,2,84,86,Placed
+S0233,21,Male,CSE,57.3,5.8,3,5,90,67,Not Placed
+S0234,18,Male,EEE,89.5,6.58,2,3,70,62,Not Placed
+S0235,19,Female,AI&DS,81.6,8.14,1,5,78,97,Placed
+S0236,19,Male,IT,59.0,7.67,3,2,87,71,Placed
+S0237,18,Female,IT,65.4,6.55,0,4,93,62,Not Placed
+S0238,18,Male,ECE,84.4,7.01,1,2,42,56,Not Placed
+S0239,19,Male,EEE,60.6,7.96,2,5,92,59,Not Placed
+S0240,21,Male,ECE,73.6,7.58,2,3,89,82,Placed
+S0241,18,Male,ECE,76.5,5.97,1,1,99,84,Not Placed
+S0242,22,Female,ECE,82.4,7.04,0,2,88,58,Not Placed
+S0243,20,Female,EEE,73.1,5.78,1,0,86,61,Not Placed
+S0244,20,Female,AI&DS,58.4,7.45,1,2,51,90,Not Placed
+S0245,18,Male,AI&DS,58.7,5.56,2,5,41,89,Not Placed
+S0246,20,Female,AI&DS,84.8,7.65,0,3,73,43,Not Placed
+S0247,20,Male,CSE,79.6,8.69,3,2,63,79,Placed
+S0248,21,Female,AI&DS,59.3,9.4,0,5,51,84,Not Placed
+S0249,20,Male,ECE,68.0,5.84,0,3,74,92,Not Placed
+S0250,20,Female,AI&DS,71.6,8.06,2,4,47,41,Not Placed
+S0251,18,Female,CSE,63.0,7.05,0,0,52,88,Not Placed
+S0252,22,Male,CSE,59.7,9.33,0,5,70,49,Not Placed
+S0253,20,Female,EEE,76.0,7.29,0,0,54,90,Not Placed
+S0254,20,Female,AI&DS,88.4,7.82,2,3,100,46,Not Placed
+S0255,18,Male,ECE,96.8,6.6,1,5,87,66,Not Placed
+S0256,18,Male,EEE,68.3,7.35,2,1,44,97,Not Placed
+S0257,21,Male,IT,82.5,8.57,1,5,86,57,Not Placed
+S0258,21,Female,CSE,79.3,8.57,0,5,64,76,Placed
+S0259,18,Male,AI&DS,82.0,9.69,3,3,84,55,Not Placed
+S0260,18,Female,EEE,78.7,9.5,0,0,80,50,Not Placed
+S0261,18,Female,IT,94.8,7.82,3,3,41,99,Not Placed
+S0262,22,Female,AI&DS,70.6,8.03,2,3,94,47,Not Placed
+S0263,20,Female,AI&DS,58.9,9.09,0,0,81,48,Not Placed
+S0264,20,Male,CSE,84.3,6.78,2,3,62,92,Not Placed
+S0265,22,Male,AI&DS,92.7,5.81,3,2,81,41,Not Placed
+S0266,21,Female,EEE,97.4,7.1,3,1,72,90,Placed
+S0267,20,Male,ECE,61.9,8.17,2,5,50,57,Not Placed
+S0268,21,Male,ECE,60.7,5.86,3,2,61,100,Not Placed
+S0269,22,Female,EEE,81.5,8.96,0,5,82,89,Placed
+S0270,18,Male,ECE,62.5,5.63,2,0,41,79,Not Placed
+S0271,18,Female,IT,76.1,8.52,1,4,94,77,Placed
+S0272,20,Female,ECE,61.4,7.77,3,2,73,86,Placed
+S0273,21,Female,AI&DS,56.8,8.62,0,0,95,69,Placed
+S0274,21,Female,CSE,81.9,8.07,3,1,41,52,Not Placed
+S0275,20,Female,CSE,58.2,8.08,1,4,64,71,Placed
+S0276,21,Male,EEE,75.7,9.29,1,1,47,58,Not Placed
+S0277,20,Male,ECE,92.8,6.87,0,2,82,78,Not Placed
+S0278,19,Male,IT,71.4,9.63,0,0,81,57,Not Placed
+S0279,19,Female,IT,66.4,5.89,2,2,47,41,Not Placed
+S0280,19,Female,ECE,93.6,9.32,3,3,74,79,Placed
+S0281,18,Male,ECE,56.6,8.37,1,5,71,86,Placed
+S0282,20,Female,EEE,76.4,8.06,3,5,67,59,Not Placed
+S0283,20,Male,ECE,70.1,8.8,2,0,84,46,Not Placed
+S0284,19,Male,EEE,64.7,6.94,3,4,70,98,Not Placed
+S0285,22,Male,EEE,71.4,8.78,0,3,66,99,Placed
+S0286,22,Male,AI&DS,92.0,9.36,1,2,76,67,Placed
+S0287,21,Male,EEE,69.9,8.78,2,2,89,81,Placed
+S0288,20,Male,AI&DS,62.6,9.37,0,4,84,93,Placed
+S0289,18,Male,CSE,74.0,7.47,3,5,41,96,Not Placed
+S0290,20,Male,CSE,70.9,5.89,2,2,45,43,Not Placed
+S0291,20,Female,AI&DS,79.8,5.69,1,2,40,84,Not Placed
+S0292,21,Male,EEE,97.8,6.14,3,3,85,93,Not Placed
+S0293,19,Male,IT,60.2,8.18,3,2,84,88,Placed
+S0294,21,Male,ECE,95.8,8.1,3,5,66,48,Not Placed
+S0295,22,Male,EEE,94.2,7.37,3,1,42,72,Not Placed
+S0296,18,Female,IT,79.5,6.59,2,2,52,99,Not Placed
+S0297,22,Female,AI&DS,90.0,6.76,3,1,83,77,Not Placed
+S0298,21,Female,ECE,74.1,8.03,3,0,53,79,Not Placed
+S0299,18,Male,AI&DS,61.1,8.16,1,3,78,65,Placed
+S0300,20,Male,ECE,63.0,6.67,1,4,49,99,Not Placed
+S0301,21,Male,EEE,94.2,9.08,3,1,67,99,Placed
+S0302,18,Female,AI&DS,67.3,5.78,3,3,86,78,Not Placed
+S0303,18,Female,EEE,93.4,6.61,3,1,82,52,Not Placed
+S0304,19,Male,ECE,86.7,5.69,2,2,48,40,Not Placed
+S0305,18,Female,IT,92.9,7.56,3,3,60,77,Placed
+S0306,18,Male,CSE,66.9,8.83,2,2,82,89,Placed
+S0307,22,Female,CSE,59.2,9.42,3,2,60,77,Placed
+S0308,21,Female,CSE,61.0,6.51,3,1,69,43,Not Placed
+S0309,20,Male,IT,91.1,6.81,3,3,40,95,Not Placed
+S0310,22,Female,IT,89.0,9.61,2,1,63,84,Placed
+S0311,20,Female,ECE,78.1,8.01,2,4,78,80,Placed
+S0312,18,Female,IT,86.2,8.55,2,5,51,56,Not Placed
+S0313,18,Male,EEE,72.0,8.69,0,1,47,65,Not Placed
+S0314,22,Male,CSE,76.8,8.9,3,5,85,65,Placed
+S0315,20,Female,EEE,74.3,8.88,3,1,47,93,Not Placed
+S0316,19,Female,EEE,89.8,9.56,1,3,94,53,Not Placed
+S0317,21,Male,AI&DS,80.8,9.28,1,3,78,59,Not Placed
+S0318,19,Female,CSE,70.9,6.63,2,3,50,78,Not Placed
+S0319,22,Female,ECE,59.8,6.84,1,4,42,84,Not Placed
+S0320,22,Female,CSE,76.1,8.58,1,3,60,84,Placed
+S0321,22,Female,ECE,56.5,7.61,3,5,97,93,Placed
+S0322,20,Female,IT,78.3,9.49,0,2,61,66,Placed
+S0323,22,Female,EEE,94.7,6.47,2,4,58,47,Not Placed
+S0324,19,Female,AI&DS,75.4,7.87,1,0,89,86,Placed
+S0325,20,Male,EEE,58.6,6.17,1,0,53,43,Not Placed
+S0326,18,Female,CSE,68.9,8.95,2,2,55,91,Not Placed
+S0327,18,Male,AI&DS,74.7,9.18,1,1,67,57,Not Placed
+S0328,19,Female,ECE,71.5,7.55,0,0,90,41,Not Placed
+S0329,20,Female,AI&DS,63.6,8.34,0,3,66,47,Not Placed
+S0330,18,Male,AI&DS,85.1,6.08,0,2,84,41,Not Placed
+S0331,20,Male,IT,71.3,9.71,0,0,61,98,Placed
+S0332,19,Female,CSE,93.5,8.83,0,0,85,76,Placed
+S0333,22,Male,AI&DS,56.4,8.96,0,3,97,50,Not Placed
+S0334,18,Male,AI&DS,90.7,5.58,3,2,80,87,Not Placed
+S0335,20,Female,IT,76.7,8.8,2,2,89,97,Placed
+S0336,22,Male,AI&DS,94.0,5.71,1,0,45,92,Not Placed
+S0337,19,Female,EEE,67.3,9.01,0,2,65,49,Not Placed
+S0338,22,Female,IT,61.8,7.34,2,5,94,53,Not Placed
+S0339,18,Male,AI&DS,96.9,9.42,1,2,85,51,Not Placed
+S0340,20,Male,ECE,82.4,9.76,0,3,52,74,Not Placed
+S0341,21,Male,AI&DS,93.1,6.59,2,0,68,43,Not Placed
+S0342,18,Female,AI&DS,78.8,6.67,3,3,70,79,Not Placed
+S0343,21,Male,EEE,65.8,5.68,1,2,94,86,Not Placed
+S0344,21,Female,AI&DS,68.3,5.9,2,4,74,80,Not Placed
+S0345,20,Male,IT,97.0,6.63,0,3,42,67,Not Placed
+S0346,21,Female,ECE,91.7,6.98,1,3,79,52,Not Placed
+S0347,18,Female,ECE,75.7,9.2,0,5,98,90,Placed
+S0348,19,Male,AI&DS,84.9,6.11,0,3,65,67,Not Placed
+S0349,18,Female,CSE,66.3,9.66,2,0,55,93,Not Placed
+S0350,21,Male,ECE,64.6,6.93,2,5,46,94,Not Placed
+S0351,19,Male,EEE,80.0,5.76,2,3,77,98,Not Placed
+S0352,20,Male,IT,57.4,6.47,0,2,47,59,Not Placed
+S0353,20,Male,ECE,76.0,8.37,0,3,44,56,Not Placed
+S0354,19,Female,EEE,59.9,6.64,0,2,69,76,Not Placed
+S0355,18,Male,CSE,56.0,9.03,2,3,60,81,Placed
+S0356,22,Female,AI&DS,56.5,8.56,2,3,43,87,Not Placed
+S0357,21,Male,EEE,80.4,7.77,0,0,75,43,Not Placed
+S0358,20,Female,IT,85.3,6.48,0,1,48,100,Not Placed
+S0359,20,Female,EEE,67.6,8.59,3,5,80,98,Placed
+S0360,20,Male,AI&DS,95.1,7.86,1,3,41,89,Not Placed
+S0361,20,Female,AI&DS,55.5,7.19,2,5,77,78,Placed
+S0362,21,Male,ECE,64.6,8.19,3,3,68,100,Placed
+S0363,22,Female,IT,76.7,7.2,1,5,76,59,Not Placed
+S0364,20,Female,EEE,92.6,6.6,3,3,70,46,Not Placed
+S0365,22,Male,IT,96.4,7.11,2,5,71,64,Not Placed
+S0366,19,Female,CSE,95.4,9.22,0,1,50,64,Not Placed
+S0367,18,Female,EEE,96.9,8.73,0,4,85,94,Placed
+S0368,19,Male,AI&DS,79.1,6.64,3,3,74,45,Not Placed
+S0369,21,Female,IT,75.6,7.44,0,3,43,87,Not Placed
+S0370,19,Male,AI&DS,85.2,9.64,0,0,46,90,Not Placed
+S0371,22,Female,EEE,63.1,6.21,0,1,77,88,Not Placed
+S0372,19,Male,EEE,78.7,7.95,1,3,98,69,Placed
+S0373,19,Male,IT,72.2,8.74,3,1,48,56,Not Placed
+S0374,22,Female,IT,96.4,7.43,1,2,90,89,Placed
+S0375,20,Male,CSE,88.1,5.54,3,2,72,93,Not Placed
+S0376,21,Male,ECE,60.8,7.32,3,4,69,41,Not Placed
+S0377,18,Female,EEE,58.1,7.61,0,5,73,75,Placed
+S0378,20,Male,CSE,91.1,5.73,1,0,70,67,Not Placed
+S0379,19,Female,ECE,71.5,9.3,3,5,46,56,Not Placed
+S0380,19,Female,AI&DS,69.6,6.26,0,1,73,50,Not Placed
+S0381,19,Male,EEE,75.7,5.83,3,4,50,61,Not Placed
+S0382,20,Male,IT,86.9,9.14,0,2,54,50,Not Placed
+S0383,21,Female,AI&DS,82.7,7.88,1,2,100,97,Placed
+S0384,20,Female,EEE,81.5,7.66,2,1,70,46,Not Placed
+S0385,22,Female,EEE,75.2,6.5,3,1,92,46,Not Placed
+S0386,21,Male,IT,65.7,9.07,2,5,97,75,Placed
+S0387,21,Female,ECE,83.5,9.73,1,2,73,89,Placed
+S0388,20,Male,EEE,83.2,7.2,1,2,66,72,Placed
+S0389,21,Female,EEE,59.5,6.25,1,1,90,76,Not Placed
+S0390,18,Male,AI&DS,81.9,6.25,0,2,44,62,Not Placed
+S0391,19,Male,EEE,60.6,8.67,3,1,65,55,Not Placed
+S0392,19,Male,IT,66.7,6.67,2,2,45,95,Not Placed
+S0393,22,Male,ECE,91.4,9.27,1,1,99,43,Not Placed
+S0394,18,Male,CSE,73.6,5.82,3,5,80,79,Not Placed
+S0395,21,Female,CSE,66.1,9.55,2,4,92,62,Not Placed
+S0396,20,Male,IT,62.6,6.33,3,2,79,47,Not Placed
+S0397,19,Male,AI&DS,60.6,6.54,3,1,95,71,Not Placed
+S0398,22,Female,AI&DS,95.0,9.43,2,4,51,74,Not Placed
+S0399,20,Female,IT,80.9,9.34,1,1,46,98,Not Placed
+S0400,18,Male,CSE,83.1,7.3,1,2,94,79,Placed
+S0401,21,Male,ECE,95.9,6.02,2,4,75,84,Not Placed
+S0402,18,Male,CSE,55.3,6.07,0,1,88,56,Not Placed
+S0403,18,Female,CSE,63.2,5.87,3,4,58,83,Not Placed
+S0404,19,Female,IT,90.1,8.3,0,2,61,62,Not Placed
+S0405,22,Male,CSE,68.7,7.46,1,4,58,77,Not Placed
+S0406,21,Male,CSE,90.4,5.65,3,3,76,80,Not Placed
+S0407,18,Female,ECE,89.6,8.22,0,1,49,73,Not Placed
+S0408,19,Male,IT,82.0,6.32,2,5,43,86,Not Placed
+S0409,19,Male,CSE,84.9,9.68,2,4,44,86,Not Placed
+S0410,21,Female,CSE,64.4,7.19,2,3,68,96,Placed
+S0411,22,Male,EEE,68.0,5.55,0,3,83,59,Not Placed
+S0412,20,Female,EEE,77.8,6.68,0,1,56,58,Not Placed
+S0413,22,Female,AI&DS,95.4,7.14,1,0,89,48,Not Placed
+S0414,22,Female,IT,59.0,6.07,2,1,57,57,Not Placed
+S0415,19,Female,IT,72.6,8.45,2,4,79,92,Placed
+S0416,18,Male,AI&DS,60.3,8.75,3,4,80,59,Not Placed
+S0417,20,Male,EEE,78.6,9.18,3,2,57,40,Not Placed
+S0418,20,Female,EEE,58.7,9.15,1,5,64,88,Placed
+S0419,21,Female,AI&DS,82.1,6.52,2,3,91,67,Not Placed
+S0420,22,Female,IT,58.8,6.07,3,5,80,79,Not Placed
+S0421,21,Male,ECE,72.9,8.31,2,5,94,48,Not Placed
+S0422,20,Female,CSE,61.7,8.2,0,0,65,49,Not Placed
+S0423,22,Male,EEE,77.4,7.3,2,5,61,87,Placed
+S0424,22,Male,CSE,56.1,7.21,0,0,78,86,Placed
+S0425,18,Female,AI&DS,89.3,7.21,1,3,62,63,Not Placed
+S0426,22,Female,ECE,59.8,9.01,1,5,82,93,Placed
+S0427,22,Female,IT,63.7,5.56,3,2,87,70,Not Placed
+S0428,20,Female,ECE,67.5,6.53,1,2,81,66,Not Placed
+S0429,19,Male,AI&DS,63.7,7.77,2,1,67,52,Not Placed
+S0430,18,Male,ECE,68.8,6.69,1,5,92,56,Not Placed
+S0431,22,Male,ECE,61.9,9.73,0,3,88,83,Placed
+S0432,22,Female,AI&DS,97.0,6.7,1,5,78,45,Not Placed
+S0433,21,Female,EEE,93.2,8.14,1,4,63,42,Not Placed
+S0434,18,Male,ECE,91.9,9.35,1,4,66,50,Not Placed
+S0435,21,Female,CSE,86.0,7.64,0,1,79,99,Placed
+S0436,20,Female,IT,58.7,7.02,0,1,72,41,Not Placed
+S0437,22,Female,ECE,90.0,6.13,1,0,71,42,Not Placed
+S0438,22,Female,AI&DS,86.8,6.27,3,5,89,70,Not Placed
+S0439,19,Male,ECE,55.1,9.28,3,2,44,81,Not Placed
+S0440,21,Female,ECE,93.3,6.47,1,4,58,48,Not Placed
+S0441,22,Female,CSE,97.1,8.53,3,2,55,42,Not Placed
+S0442,21,Male,EEE,86.5,9.46,3,5,49,95,Not Placed
+S0443,20,Female,CSE,69.3,7.0,0,1,78,83,Placed
+S0444,22,Female,CSE,55.7,6.49,1,2,83,87,Not Placed
+S0445,21,Female,CSE,92.6,7.93,2,5,89,49,Not Placed
+S0446,21,Female,CSE,66.8,5.86,2,1,41,70,Not Placed
+S0447,20,Male,AI&DS,70.6,5.98,1,1,99,73,Not Placed
+S0448,18,Male,CSE,95.5,8.25,1,0,92,98,Placed
+S0449,21,Female,IT,71.2,8.12,2,0,67,58,Not Placed
+S0450,22,Male,ECE,74.0,9.33,3,5,48,42,Not Placed
+S0451,21,Female,IT,62.2,7.79,0,0,46,60,Not Placed
+S0452,18,Male,ECE,73.0,8.43,1,3,83,79,Placed
+S0453,20,Female,CSE,59.7,9.43,0,3,55,57,Not Placed
+S0454,18,Female,CSE,84.9,7.19,3,3,78,74,Placed
+S0455,20,Female,AI&DS,64.1,8.12,2,2,57,80,Not Placed
+S0456,22,Male,ECE,75.5,7.34,2,0,52,41,Not Placed
+S0457,20,Female,AI&DS,89.9,9.47,0,3,86,59,Not Placed
+S0458,20,Female,EEE,66.2,6.2,0,3,62,77,Not Placed
+S0459,20,Female,AI&DS,63.2,7.06,1,1,86,53,Not Placed
+S0460,18,Female,CSE,70.1,7.43,0,4,89,99,Placed
+S0461,21,Female,IT,85.6,6.83,1,0,94,51,Not Placed
+S0462,18,Male,IT,71.1,8.0,0,0,84,71,Placed
+S0463,21,Female,AI&DS,96.4,9.76,3,5,81,84,Placed
+S0464,21,Female,AI&DS,60.1,7.36,3,0,86,45,Not Placed
+S0465,20,Female,ECE,79.0,8.62,2,2,47,85,Not Placed
+S0466,18,Male,IT,77.4,9.22,2,5,61,88,Placed
+S0467,19,Male,CSE,68.6,6.01,1,3,41,50,Not Placed
+S0468,19,Female,ECE,75.0,7.68,1,1,97,72,Placed
+S0469,20,Male,IT,91.2,9.68,0,4,91,68,Placed
+S0470,22,Female,ECE,80.8,7.6,2,1,41,70,Not Placed
+S0471,22,Female,IT,66.8,8.26,1,5,51,80,Not Placed
+S0472,21,Male,IT,71.4,6.03,1,2,95,99,Not Placed
+S0473,21,Male,CSE,82.2,6.11,2,4,94,75,Not Placed
+S0474,20,Male,AI&DS,97.7,6.57,3,4,70,81,Not Placed
+S0475,22,Male,IT,96.1,9.47,1,3,76,41,Not Placed
+S0476,18,Female,IT,77.9,7.31,3,3,60,44,Not Placed
+S0477,21,Male,EEE,76.1,7.26,1,3,81,78,Placed
+S0478,20,Female,ECE,64.9,7.59,0,5,62,79,Placed
+S0479,20,Female,CSE,88.0,6.54,3,5,91,77,Not Placed
+S0480,20,Female,AI&DS,87.9,8.81,3,5,68,50,Not Placed
+S0481,19,Male,EEE,90.8,7.16,2,4,72,92,Placed
+S0482,19,Female,CSE,93.1,8.5,2,3,62,71,Placed
+S0483,21,Male,ECE,62.3,8.71,2,4,61,70,Placed
+S0484,21,Male,IT,67.8,7.35,2,2,50,54,Not Placed
+S0485,21,Male,CSE,84.8,7.55,1,1,90,44,Not Placed
+S0486,22,Male,EEE,87.3,7.57,2,5,91,46,Not Placed
+S0487,21,Female,EEE,74.7,6.3,3,3,68,94,Not Placed
+S0488,20,Female,EEE,61.0,6.15,0,3,55,58,Not Placed
+S0489,21,Male,CSE,96.9,7.34,2,0,41,64,Not Placed
+S0490,22,Male,CSE,63.3,8.63,1,0,80,76,Placed
+S0491,18,Male,EEE,70.6,9.63,2,0,59,53,Not Placed
+S0492,19,Male,EEE,73.0,5.87,3,2,55,99,Not Placed
+S0493,19,Male,ECE,74.8,7.12,0,0,53,74,Not Placed
+S0494,20,Male,CSE,68.0,8.37,1,2,93,65,Placed
+S0495,18,Female,CSE,80.0,8.79,0,1,40,52,Not Placed
+S0496,19,Male,CSE,86.1,6.43,1,4,89,86,Not Placed
+S0497,22,Male,IT,80.2,6.85,1,0,97,61,Not Placed
+S0498,18,Female,EEE,69.9,6.01,0,1,74,47,Not Placed
+S0499,19,Female,EEE,72.1,7.71,0,4,56,96,Not Placed
+S0500,18,Female,EEE,56.8,5.99,2,4,58,51,Not Placed
