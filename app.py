@@ -323,6 +323,30 @@ st.sidebar.title("🎓 Student Analytics")
 st.sidebar.write(
     "Academic Performance & Placement Dashboard"
 )
+st.sidebar.divider()
+
+st.sidebar.title("🎓 Student Analytics")
+st.sidebar.write("Academic Performance & Placement")
+st.sidebar.divider()
+
+page = st.sidebar.radio(
+    "Navigation",
+    ["📊 Dashboard", "📋 Student Data"]
+)
+
+if page == "📋 Student Data":
+
+    st.title("📋 Student Data")
+
+    st.write("Complete student academic and placement records")
+
+    st.dataframe(
+        df,
+        use_container_width=True,
+        hide_index=True
+    )
+
+
 
 st.sidebar.divider()
 
@@ -353,6 +377,59 @@ selected_placement = st.sidebar.selectbox(
 
 if selected_placement != "All":
     df = df[df["Placement_Status"] == selected_placement]
+
+selected_dept = st.selectbox(
+    "🏫 Filter by Department",
+    ["All"] + sorted(df["Department"].unique().tolist())
+)
+
+if selected_dept != "All":
+    df = df[df["Department"] == selected_dept]
+
+selected_placement = st.selectbox(
+    "💼 Filter by Placement Status",
+    ["All"] + sorted(df["Placement_Status"].unique().tolist())
+)
+
+if selected_placement != "All":
+    df = df[df["Placement_Status"] == selected_placement]
+
+selected_gender = st.selectbox(
+    "👤 Filter by Gender",
+    ["All"] + sorted(df["Gender"].unique().tolist())
+)
+
+if selected_gender != "All":
+    df = df[df["Gender"] == selected_gender]
+
+search_student = st.text_input(
+    "🔎 Search Student ID",
+    placeholder="Enter Student ID"
+)
+
+if search_student:
+    df = df[
+        df["Student_ID"].astype(str).str.contains(
+            search_student,
+            case=False,
+            na=False
+        )
+    ]
+
+st.download_button(
+        label="⬇️ Download Student Data",
+        data=df.to_csv(index=False),
+        file_name="student_data_filtered.csv",
+        mime="text/csv"
+    )
+
+st.dataframe(
+    df,
+    use_container_width=True,
+    hide_index=True
+)
+
+st.stop()
 
 st.dataframe(df)
 # Download Filtered Data
@@ -386,6 +463,9 @@ placement_percentage = round(
 # Create KPI columns
 
 # KPI Cards
+st.caption(
+    f"Showing {len(df)} student records based on selected filters."
+)
 
 col1, col2, col3, col4 = st.columns(4)
 
