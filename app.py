@@ -463,6 +463,7 @@ placement_percentage = round(
 # Create KPI columns
 
 # KPI Cards
+
 st.caption(
     f"Showing {len(df)} student records based on selected filters."
 )
